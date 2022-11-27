@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>CRAPPE</title>
+ <meta name="viewport" content="width-device-width, initial-scale-1">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@600&display=swap">
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap">
+</head>
+
+<style>
+h1 {text-align: center;}
+h1 {font-family: "Zilla Slab"}
+p {text-align: left;}
+p {font-family: "Roboto"}
+p {font-size: 20px;}
+footer {
+ padding:20px;
+ text-align: center;
+ font-family: "Zilla Slab"
+ margin: 20px;
+} 
+nav {font-family: "Zilla Slab"}
+* {
+  box-sizing: border-box;
+}
+article {font-family: "Zilla Slab"}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-discoloration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+<body>
+  <header>
+  <h1>CRAPPE<h1>
+  </header>
+  <nav>
+   <ul>
+  <li><a href="https://compsci3-aa2.w3spaces-preview.com/aa1-2ndquarter.html">Home</a></li>
+  <li><a href="https://compsci3-aa2.w3spaces-preview.com/menu.html">Menu</a></li>
+  <li><a href="https://compsci3-aa2.w3spaces-preview.com/aboutus.html">About Us</a></li>
+   </ul>
+  </nav>
+  <article>
+  <h2>You deserve this!</h2>
+  <p>What will you  order to treat yourself today?</p>
+  </article>
+
+
+
+<div class="column">
+ <a href="https://compsci3-aa2.w3spaces-preview.com/menu.html"> <img src="https://media.istockphoto.com/id/1152767411/photo/cup-of-coffee-latte-isolated-on-white-background-with-clipping-path.jpg?b=1&s=170667a&w=0&k=20&c=1tI36_1JAgIZyMACa1VgvOyHiXC94Xy1zj0yfMQXo38=" width="300" height="300" style="margin:10px"><br></a>
+ <p>Our macchiato that has the combination of coffee, steamed milk, and cinnamon makes great start to your early morning.</p>
+</div>
+
+<div class="column">
+<a href="https://compsci3-aa2.w3spaces-preview.com/menu.html"> <img src="https://static.vecteezy.com/system/resources/previews/004/817/331/large_2x/iced-coffee-in-glass-on-white-background-free-photo.jpg" width="280" height="300" style="margin:10px"><br></a>
+ <p>Our rich iced espresso with milk and caramel adds sweetness to a bitter morning.</p>
+</div>
+
+<div class="column">
+<a href="https://compsci3-aa2.w3spaces-preview.com/menu.html"> <img src="https://media.istockphoto.com/id/1051563222/photo/a-mug-of-hot-chocolate-in-a-red-metal-mug.jpg?s=612x612&w=0&k=20&c=r3KR_nC-AoG02JQd29iCRe0JOlp_SUUF2-BzXU_NQXs=" width="380" height="300" style="margin:10px"><br></a>
+ <p>A steaming cup of milk, cocoa, sugar, chocolate, and heavy cream is sure to lift one's spirits on a cold day.</p>
+</div>
+
+<div class="column">
+<a href="https://compsci3-aa2.w3spaces-preview.com/menu.html"> <img src="http://d3gg7p8kl1yfy0.cloudfront.net/detail_bb_French_Toast_wBerries_2-0004_2022.jpg" width="300" height="300" style="margin:10px"><br></a>
+ <p>A plate of sauteed milk and egg-dipped bread glazed with syrup and adorned with berries are sure to make put a smile on your face.</p>
+</div>
+
+<div class="column">
+<a href="https://compsci3-aa2.w3spaces-preview.com/menu.html"> <img src="https://media.istockphoto.com/id/860541574/photo/cheesecake-with-fresh-blueberries.jpg?s=612x612&w=0&k=20&c=2IiBNCQv1x2Bwt9wTFuL87KTVpwV0qRavFvtcJIpsBw=" width="300" height="300" style="margin:10px"><br></a>
+ <p>A cream cheese delight topped with a sweet and tangy puree and blueberries to alleviate your stress and replace that upset feeling with a joyful and filling one.</p>
+ </div>
+
+<div class="column">
+<a href="https://compsci3-aa2.w3spaces-preview.com/menu.html"> <img src="https://t4.ftcdn.net/jpg/04/84/52/49/360_F_484524987_PnTwD2M132FFO4QIQQHUUws8SQ8WMECw.jpg" width="300" height="300" style="margin:10px"><br></a>
+ <p>A dessert composed of a custard filling topped with a crunchy layer of caramel and sugar to make that grumbling stomach happy with the sweet taste of this dish.</p>
+</div>
+
+<footer>
+ <hr/>
+ Copyright &copy; 2022. A-vll Foundation. All Rights Reserved.
+ </footer>
+
+</body>
+</html>
+
+
