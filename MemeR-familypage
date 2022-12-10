@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MemeR</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+body,h1 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+<style>
+h1 {text-align: center;}
+h1 {font-family: "Roboto";}
+p {text-align: center;}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.w3-white w3-xlarge {padding:20px}
+</style>
+</style>
+</head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="https://htmlpreview.github.io/?https://github.com/avllemos2026/avllemos2026/blob/main/MemeR-schoolpage" onclick="w3_close()"
+  class="w3-bar-item w3-button">School</a>
+  <a href="https://htmlpreview.github.io/?https://github.com/avllemos2026/avllemos2026/blob/main/MemeR-familypage" onclick="w3_close()" class="w3-bar-item w3-button">Family</a>
+  <a href="https://htmlpreview.github.io/?https://github.com/avllemos2026/avllemos2026/blob/main/MemeR-lifepage" onclick="w3_close()" class="w3-bar-item w3-button">Life</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16">HAHA!</div>
+    <div class="w3-center w3-padding-16">Family</div>
+  </div>
+</div>
+
+
+<!-- Content -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+<div class="column">
+ <img src="https://media.familyminded.com/db/a7/dba70fd129e6401eb1aea670461bf946.jpeg" width="300" height="300" style="margin:10px"><br></a>
+</div>
+
+<div class="column">
+<img src="https://thumbor.bigedition.com/music-meme/23QI7J91ggAjkNs1hgHe3RtVuGg=/755x800/filters:format(webp):quality(80)/granite-web-prod/ca/eb/caeb7ade9dcd440ca778593c55ae20bd.jpeg" width="300" height="300" style="margin:10px"><br></a>
+</div>
+
+<div class="column">
+<img src="https://i.chzbgr.com/full/9473978368/hD49C246B/dinner-table-the-secret-told-my-mom-not-to-tell-anyone-about-the-whole-family-and-the-dinner-tables" width="300" height="300" style="margin:10px"><br></a>
+</div>
+
+<div class="column">
+<img src="https://media.familyminded.com/55/e8/55e8b32ece774eb1acd20f1c9ff997a8.jpeg" width="300" height="300" style="margin:10px"><br></a>
+</div>
+
+<div class="column">
+<img src="https://m.lovethispic.com/uploaded_images/blogs/10-Relatable-Parenting-Memes-That-Any-Mom-amp-Dad-Can-Understand-48706-2.jpeg" width="300" height="300" style="margin:10px"><br></a>
+</div>
+
+<div class="column">
+<img src="https://i.chzbgr.com/full/9488168448/h7352113D/omg-you-never-sit-and-talk-with-us-we-dont-know-anything-about-you-me-shares-interests-my-family" width="300" height="300" style="margin:10px"><br></a>
+</div>
+  
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="https://htmlpreview.github.io/?https://github.com/avllemos2026/avllemos2026/blob/main/MemeR-schoolpage" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="https://htmlpreview.github.io/?https://github.com/avllemos2026/avllemos2026/blob/main/MemeR-schoolpage" class="w3-bar-item w3-button">1</a>
+      <a href="https://htmlpreview.github.io/?https://github.com/avllemos2026/avllemos2026/blob/main/MemeR-familypage" class="w3-bar-item w3-black w3-button w3-hover-black">2</a>
+      <a href="https://htmlpreview.github.io/?https://github.com/avllemos2026/avllemos2026/blob/main/MemeR-lifepage" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="https://htmlpreview.github.io/?https://github.com/avllemos2026/avllemos2026/blob/main/MemeR-lifepage" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>MEMER</h3>
+      <p>Funny and Relatable Memes!! I thought these only happened to me (HAHA)!</p>
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  
+
+
+    <div class="w3-third w3-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Meme</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Funny</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Relatable</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Laugh</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">School</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Life</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Family</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"></span>
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
+
